@@ -6,7 +6,7 @@
                 <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center transform group-hover:rotate-12 transition-transform duration-300">
                     <i class="fas fa-code text-white text-xl"></i>
                 </div>
-                <span class="text-xl font-bold text-white hidden sm:block">Ifada Ziyada</span>
+                <span class="text-xl font-bold text-white hidden sm:block">Ifada Ziyada Umar</span>
             </a>
             
             <!-- Desktop Navigation -->
