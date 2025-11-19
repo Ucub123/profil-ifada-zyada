@@ -1,19 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SiteController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/profil', function () {
-    return view('profil');
-});
-
-Route::get('/pengalaman', function () {
-    return view('pengalaman');
-});
-
-Route::get('/kontak', function () {
-    return view('kontak');
-});
+Route::get('/', [SiteController::class, 'home']);
+Route::get('/profil', [SiteController::class, 'showProfil']);
+Route::get('/pengalaman', [SiteController::class, 'showPengalaman']);
+Route::get('/kontak', [SiteController::class, 'showKontak']);
